@@ -3,7 +3,7 @@ const plusBtn = document.getElementById('plus-btn');
 const resetBtn = document.getElementById('reset-btn');
 const minusBtn = document.getElementById('minus-btn');
 
-data = 0;
+let data = 0;
 
 plusBtn.addEventListener('click', () => {
     data++;
